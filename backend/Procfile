@@ -1,0 +1,23 @@
+# Heroku Deployment Configuration
+
+# Add Procfile for Heroku
+
+web: npm start
+
+# Environment Variables (set via Heroku CLI or Dashboard):
+
+# heroku config:set NODE_ENV=production
+
+# heroku config:set MONGODB_URI=your-mongodb-connection-string
+
+# heroku config:set CORS_ORIGIN=your-frontend-url
+
+# Deploy Commands:
+
+# heroku login
+
+# heroku create your-app-name
+
+# git subtree push --prefix backend heroku main
+
+# Or use Heroku GitHub integration for auto-deploy
